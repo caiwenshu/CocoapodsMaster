@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FontAwesome+iOS (0.1.4)
+  - ObjectiveSugar (0.9)
+  - PPiAwesomeButton (1.5.2):
+    - FontAwesome+iOS
+  - PPiFlatSegmentedControl (1.4.0):
+    - PPiAwesomeButton
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - ObjectiveSugar (~> 0.5)
+  - PPiFlatSegmentedControl
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  ObjectiveSugar: 18409ee1ec578dd8598b55e5008f393488dca5cf
+  PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
+  PPiFlatSegmentedControl: ed706988b57f887fc09852dd0da18b3355cd8bea
+
+COCOAPODS: 0.39.0
