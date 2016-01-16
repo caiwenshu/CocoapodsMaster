@@ -14,8 +14,8 @@
 		A47C70041C48FD6F002D8E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47C70021C48FD6F002D8E8C /* Main.storyboard */; };
 		A47C70061C48FD6F002D8E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47C70051C48FD6F002D8E8C /* Assets.xcassets */; };
 		A47C70091C48FD6F002D8E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47C70071C48FD6F002D8E8C /* LaunchScreen.storyboard */; };
-		A47C70121C4907AC002D8E8C /* DemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70111C4907AC002D8E8C /* DemoObject.m */; };
-		A47C70161C4907CD002D8E8C /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70151C4907CD002D8E8C /* DemoView.m */; };
+		A47C70251C4A51A9002D8E8C /* DemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70211C4A51A9002D8E8C /* DemoObject.m */; };
+		A47C70261C4A51A9002D8E8C /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70241C4A51A9002D8E8C /* DemoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		A47C70051C48FD6F002D8E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47C70081C48FD6F002D8E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47C700A1C48FD6F002D8E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47C70101C4907AC002D8E8C /* DemoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoObject.h; sourceTree = "<group>"; };
-		A47C70111C4907AC002D8E8C /* DemoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObject.m; sourceTree = "<group>"; };
-		A47C70141C4907CD002D8E8C /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
-		A47C70151C4907CD002D8E8C /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		A47C70201C4A51A9002D8E8C /* DemoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoObject.h; sourceTree = "<group>"; };
+		A47C70211C4A51A9002D8E8C /* DemoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObject.m; sourceTree = "<group>"; };
+		A47C70231C4A51A9002D8E8C /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		A47C70241C4A51A9002D8E8C /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 		A49D4F6A72D3187400A3B9D5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F33EA813FFE8A3744810623A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,9 +80,7 @@
 		A47C6FF81C48FD6F002D8E8C /* CocoapodsMaster */ = {
 			isa = PBXGroup;
 			children = (
-				A47C70131C4907BF002D8E8C /* View */,
-				A47C70101C4907AC002D8E8C /* DemoObject.h */,
-				A47C70111C4907AC002D8E8C /* DemoObject.m */,
+				A47C701F1C4A51A9002D8E8C /* Classes */,
 				A47C6FFC1C48FD6F002D8E8C /* AppDelegate.h */,
 				A47C6FFD1C48FD6F002D8E8C /* AppDelegate.m */,
 				A47C6FFF1C48FD6F002D8E8C /* ViewController.h */,
@@ -104,11 +102,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A47C70131C4907BF002D8E8C /* View */ = {
+		A47C701F1C4A51A9002D8E8C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A47C70141C4907CD002D8E8C /* DemoView.h */,
-				A47C70151C4907CD002D8E8C /* DemoView.m */,
+				A47C70201C4A51A9002D8E8C /* DemoObject.h */,
+				A47C70211C4A51A9002D8E8C /* DemoObject.m */,
+				A47C70221C4A51A9002D8E8C /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A47C70221C4A51A9002D8E8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A47C70231C4A51A9002D8E8C /* DemoView.h */,
+				A47C70241C4A51A9002D8E8C /* DemoView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,10 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47C70011C48FD6F002D8E8C /* ViewController.m in Sources */,
-				A47C70161C4907CD002D8E8C /* DemoView.m in Sources */,
+				A47C70261C4A51A9002D8E8C /* DemoView.m in Sources */,
 				A47C6FFE1C48FD6F002D8E8C /* AppDelegate.m in Sources */,
 				A47C6FFB1C48FD6F002D8E8C /* main.m in Sources */,
-				A47C70121C4907AC002D8E8C /* DemoObject.m in Sources */,
+				A47C70251C4A51A9002D8E8C /* DemoObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
