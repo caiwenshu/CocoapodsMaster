@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55A3E46C9CB0E48B3AE2FD5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33EA813FFE8A3744810623A /* libPods.a */; };
+		A443B1E71C4CD2CE003D2F2E /* SubSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = A443B1E61C4CD2CE003D2F2E /* SubSubView.m */; };
 		A47C6FFB1C48FD6F002D8E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C6FFA1C48FD6F002D8E8C /* main.m */; };
 		A47C6FFE1C48FD6F002D8E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C6FFD1C48FD6F002D8E8C /* AppDelegate.m */; };
 		A47C70011C48FD6F002D8E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70001C48FD6F002D8E8C /* ViewController.m */; };
@@ -20,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		8FA8F85D013BCEC3CF36181D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A443B1E51C4CD2CE003D2F2E /* SubSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSubView.h; sourceTree = "<group>"; };
+		A443B1E61C4CD2CE003D2F2E /* SubSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSubView.m; sourceTree = "<group>"; };
 		A47C6FF61C48FD6F002D8E8C /* CocoapodsMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47C6FFA1C48FD6F002D8E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A47C6FFC1C48FD6F002D8E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +60,23 @@
 				8FA8F85D013BCEC3CF36181D /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A443B1E31C4CD2C3003D2F2E /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				A443B1E41C4CD2C3003D2F2E /* SubSubView */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		A443B1E41C4CD2C3003D2F2E /* SubSubView */ = {
+			isa = PBXGroup;
+			children = (
+				A443B1E51C4CD2CE003D2F2E /* SubSubView.h */,
+				A443B1E61C4CD2CE003D2F2E /* SubSubView.m */,
+			);
+			path = SubSubView;
 			sourceTree = "<group>";
 		};
 		A47C6FED1C48FD6F002D8E8C = {
@@ -115,6 +135,7 @@
 		A47C70221C4A51A9002D8E8C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A443B1E31C4CD2C3003D2F2E /* SubView */,
 				A47C70231C4A51A9002D8E8C /* DemoView.h */,
 				A47C70241C4A51A9002D8E8C /* DemoView.m */,
 			);
@@ -252,6 +273,7 @@
 			files = (
 				A47C70011C48FD6F002D8E8C /* ViewController.m in Sources */,
 				A47C70261C4A51A9002D8E8C /* DemoView.m in Sources */,
+				A443B1E71C4CD2CE003D2F2E /* SubSubView.m in Sources */,
 				A47C6FFE1C48FD6F002D8E8C /* AppDelegate.m in Sources */,
 				A47C6FFB1C48FD6F002D8E8C /* main.m in Sources */,
 				A47C70251C4A51A9002D8E8C /* DemoObject.m in Sources */,
