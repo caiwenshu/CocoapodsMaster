@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		55A3E46C9CB0E48B3AE2FD5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33EA813FFE8A3744810623A /* libPods.a */; };
 		A443B1E71C4CD2CE003D2F2E /* SubSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = A443B1E61C4CD2CE003D2F2E /* SubSubView.m */; };
+		A443B1EA1C4CDBF3003D2F2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A443B1E91C4CDBF3003D2F2E /* Images.xcassets */; };
+		A443B1EC1C4CDCD1003D2F2E /* demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A443B1EB1C4CDCD1003D2F2E /* demo.plist */; };
 		A47C6FFB1C48FD6F002D8E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C6FFA1C48FD6F002D8E8C /* main.m */; };
 		A47C6FFE1C48FD6F002D8E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C6FFD1C48FD6F002D8E8C /* AppDelegate.m */; };
 		A47C70011C48FD6F002D8E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C70001C48FD6F002D8E8C /* ViewController.m */; };
@@ -23,6 +25,8 @@
 		8FA8F85D013BCEC3CF36181D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A443B1E51C4CD2CE003D2F2E /* SubSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSubView.h; sourceTree = "<group>"; };
 		A443B1E61C4CD2CE003D2F2E /* SubSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSubView.m; sourceTree = "<group>"; };
+		A443B1E91C4CDBF3003D2F2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A443B1EB1C4CDCD1003D2F2E /* demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo.plist; sourceTree = "<group>"; };
 		A47C6FF61C48FD6F002D8E8C /* CocoapodsMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47C6FFA1C48FD6F002D8E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A47C6FFC1C48FD6F002D8E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 			path = SubSubView;
 			sourceTree = "<group>";
 		};
+		A443B1E81C4CDBE4003D2F2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A443B1E91C4CDBF3003D2F2E /* Images.xcassets */,
+				A443B1EB1C4CDCD1003D2F2E /* demo.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A47C6FED1C48FD6F002D8E8C = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		A47C6FF81C48FD6F002D8E8C /* CocoapodsMaster */ = {
 			isa = PBXGroup;
 			children = (
+				A443B1E81C4CDBE4003D2F2E /* Resources */,
 				A47C701F1C4A51A9002D8E8C /* Classes */,
 				A47C6FFC1C48FD6F002D8E8C /* AppDelegate.h */,
 				A47C6FFD1C48FD6F002D8E8C /* AppDelegate.m */,
@@ -211,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47C70091C48FD6F002D8E8C /* LaunchScreen.storyboard in Resources */,
+				A443B1EA1C4CDBF3003D2F2E /* Images.xcassets in Resources */,
 				A47C70061C48FD6F002D8E8C /* Assets.xcassets in Resources */,
+				A443B1EC1C4CDCD1003D2F2E /* demo.plist in Resources */,
 				A47C70041C48FD6F002D8E8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
