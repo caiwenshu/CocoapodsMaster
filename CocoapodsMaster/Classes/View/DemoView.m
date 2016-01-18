@@ -24,6 +24,7 @@
 
 -(void)helloWorld
 {
+    NSLog(@"current version: %@",@"0.0.2");
     NSLog(@"Hello World!");
 }
 
